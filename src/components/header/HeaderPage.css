@@ -1,0 +1,41 @@
+
+.menu{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 15px;    
+}
+
+.logo{
+    width: 180px;
+    height: 68px;
+    align-items: center;
+    color: white;
+}
+
+img{
+    width: 100%;      
+} 
+
+.links-menu{
+    width: 50%;
+    align-self: center;    
+}
+
+.links-menu a{
+    color: white;
+    text-decoration: none;
+    margin-right: 10px;
+    margin-left: 8px;
+    padding: 5px;
+    transition: 0.3s;
+}
+
+.links-menu a:hover{
+    width: 20px;
+    border-radius: 5px;
+    padding: 5px;
+    background: #EF6600;
+    transition: 0.3s;
+}
